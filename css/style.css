@@ -1,0 +1,29 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto Mono', monospace;
+  color: #1b1b1b;
+}
+a {
+  text-decoration: none;
+}
+h1 {
+  font-size: 50px;
+  font-weight: bold;
+  background-color: #1b1b1b;
+  color: white;
+  padding: 10px;
+}
+ul li {
+  margin-bottom: 15px;
+}
+ul li a{
+  color: #1b1b1b;
+  font-size: 20px;
+  padding: 5px;
+  background-color: #eaeaea;
+  transition: all 0.3s;
+}
+ul li a:hover{
+  background-color: white;
+}
