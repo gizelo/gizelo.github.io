@@ -7,15 +7,51 @@ body {
 a {
   text-decoration: none;
 }
+
+.header {
+  background-color: #1b1b1b;
+}
+.header__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-grow: 1;
+  flex-wrap: wrap;
+  margin: auto;
+  padding: 10px 40px 0px 40px;
+}
+
 h1 {
   font-size: 50px;
   font-weight: bold;
-  background-color: #1b1b1b;
   color: white;
-  padding: 10px;
+  margin: 0;
+  padding: 0px 40px 10px 0px;
 }
+@media (max-width: 600px) {
+  h1 {
+    font-size: 35px;
+  }
+}
+
+.github-link {
+  font-size: 15px;
+  color: white;
+  text-align: right;
+  text-decoration: underline;
+  padding-bottom: 10px;
+  transition: all 0.3s;
+}
+.github-link:hover {
+  color: #cccccc;
+}
+
 ul li {
   margin-bottom: 15px;
+  transition: all 0.3s;
+}
+ul li:hover {
+  transform: translateX(5px);
 }
 ul li a{
   color: #1b1b1b;
