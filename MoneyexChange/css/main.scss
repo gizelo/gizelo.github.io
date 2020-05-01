@@ -1,0 +1,395 @@
+@mixin font-regular {
+  font-weight: 400;
+}
+@mixin font-medium {
+  font-weight: 500;
+}
+@mixin font-bold {
+  font-weight: 700;
+}
+//
+$mainColor: #4E5983;
+$headerColor: #160647;
+$lightMainColor: #8389a8;
+//
+body {
+  font-family: "Rubik";
+  color: $mainColor;
+}
+ul {
+  list-style: none;
+}
+a {
+  color: $mainColor;
+  &:hover {
+    text-decoration: none;
+    color: $mainColor;
+  }
+}
+.btn {
+  color: $mainColor;
+  &:hover {
+    color: $mainColor;
+  }
+}
+//
+header {
+  padding: 15px 0;
+  font-size: 16px;
+  & .logo {
+    margin-top: 15px;
+  }
+  & .header-menu {
+    padding: 0;
+    margin-top: 15px;
+    & li {
+      margin: 0px 30px;
+    }
+    @media (max-width: 1024px) {
+      float: left;
+    }
+  }
+  & .logIn-section {
+    text-align: right;
+    & button {
+      padding: 15px 30px;
+      border-radius: 9px;
+    }
+    & .btn-reg {
+      background-color: #e7deff;
+      @include font-medium;
+    }
+    @media (max-width: 1024px) {
+      float: left;
+    }
+  }
+}
+main {
+  background: url("../img/main_bg.png");
+  background-size: cover;
+  padding-bottom: 80px;
+  & .main-header {
+    color: white;
+    text-align: center;
+    & h1 {
+      @include font-bold;
+      font-size: 60px;
+      margin: 100px 0 0 0;
+    }
+    & h2 {
+      @include font-regular;
+      font-size: 19px;
+      margin: 40px 0;
+    }
+  }
+  & .calculator {
+    padding: 50px 100px 30px 100px;
+    background-color: white;
+    border-radius: 25px;
+    & .giveGet {
+      padding-bottom: 20px;
+      & .giveGet-header {
+        font-size: 18px;
+        margin-bottom: 20px;
+        @include font-medium;
+        display: inline-block;
+        margin-right: 15px;
+      }
+      & .tip {
+        font-size: 12px;
+        color: $lightMainColor;
+        display: inline-block;
+      }
+      & .giveGet-calculate {
+        & .sumHeader {
+          color: $lightMainColor;
+          font-size: 14px;
+          margin-bottom: 15px;
+        }
+        & .sum {
+          display: inline-block;
+          font-size: 20px;
+          margin-right: 10px;
+          min-width: 150px;
+          & span {
+            color: $lightMainColor;
+          }
+        }
+        & .currency {
+          display: inline-block;
+          & * {
+            display: inline-block;
+          }
+          & .currencyImg {
+            width: 40px;
+            margin-right: 10px;
+          }
+          & p {
+            text-transform: uppercase;
+            font-size: 16px;
+            margin-right: 5px;
+          }
+          & .currencyDropDown {
+            width: 20px;
+            margin-top: -5px;
+          }
+        }
+      }
+    }
+    & .giveGetArrows {
+      padding-bottom: 20px;
+      text-align: center;
+      height: 100%;
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+      & img {
+        width: 20px;
+        margin-bottom: 20px;
+      }
+    }
+    & .exchangeBtn {
+      text-align: center;
+      padding-bottom: 20px;
+      height: 100%;
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+      & button {
+        margin-bottom: 10px;
+        padding: 10px 30px;
+        color: white;
+        font-size: 14px;
+        @include font-bold;
+        border: none;
+        background: linear-gradient(163.94deg, #562EC2 29.59%, #A07EFE 73.59%);
+        opacity: 0.8;
+        border-radius: 9px;
+        box-shadow: 0 5px 10px rgba(86, 46, 194, 0.5);
+      }
+    }
+  }
+  & .fadeOutBlocks {
+    position: relative;
+    & .fadeOutBlock1 , & .fadeOutBlock2 {
+      position: absolute;
+      background-color: white;
+      opacity: 0.2;
+      border-radius: 0 0 26px 26px;
+    }
+    & .fadeOutBlock1 {
+      width: 85%;
+      height: 15px;
+    }
+    & .fadeOutBlock2 {
+      width: 80%;
+      height: 30px;
+    }
+  }
+}
+.advantages {
+  padding-top: 80px;
+  & .advantages-block {
+    padding: 0 20px 80px 20px;
+    width: 350px;
+    text-align: center;
+    margin: auto;
+    & img {
+      width: 150px;
+      margin-bottom: 30px;
+    }
+    & h3 {
+      @include font-medium;
+      font-size: 22px;
+      margin-bottom: 30px;
+    }
+    & p {
+      font-size: 18px;
+      color: $lightMainColor;
+    }
+  }
+}
+.reputation {
+  position: relative;
+  padding-bottom: 100px;
+  & .bgBlock {
+    z-index: -1;
+    position: absolute;
+    height: 50%;
+    width: 100%;
+    top: 50%;
+    background: linear-gradient(180deg, #EFF2FA 0%, rgba(255, 255, 255, 0) 100%);
+  }
+  & .reputation-block {
+    padding: 100px;
+    background-color: white;
+    border: 5px solid #F7F8FD;
+    border-radius: 26px;
+    box-shadow: 0 50px 50px rgba(78, 89, 131, 0.1);
+    & .reputation-text {
+      padding-right: 100px;
+      & h1 {
+        @include font-medium;
+        font-size: 35px;
+        margin: 0;
+        margin-bottom: 30px;
+        color: $headerColor;
+      }
+      & p {
+        font-size: 18px;
+        margin: 0;
+      }
+    }
+    & img {
+      width: 450px;
+      margin-top: 100px;
+    }
+  }
+}
+.currencySection {
+  padding: 50px 0;
+  & .currency-header {
+    text-align: center;
+    & h1 {
+      color: $headerColor;
+      font-size: 35px;
+      @include font-medium;
+    }
+  }
+  & .currency-blocks {
+    padding-top: 70px;
+    & .currency-block {
+      display: flex;
+      align-items: center;
+      margin: 0 50px 50px 0;
+      & img {
+        display: inline-block;
+        margin-right: 30px
+      }
+      & .currency-block-text {
+        display: inline-block;
+        & .currency-name {
+          font-size: 15px;
+          margin-bottom: 3px;
+        }
+        & .currency-sum {
+          color: $headerColor;
+          font-size: 20px;
+          margin: 0;
+        }
+      }
+    }
+  }
+}
+.comments {
+  margin: 50px 0;
+  & .comments-header {
+    & h1 {
+      color: $headerColor;
+      font-size: 35px;
+      @include font-medium;
+      margin: 0;
+    }
+  }
+  & .comments-blocks {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    & .comment-block {
+      padding-right: 60px;
+      & .comment-text {
+        font-size: 18px;
+        margin-bottom: 50px;
+        height: 110px;
+      }
+      & .comment-author {
+        font-size: 20px;
+        color: $headerColor;
+        display: inline-block;
+        margin-right: 30px;
+      }
+      & .comment-date {
+        font-size: 14px;
+        display: inline-block;
+      }
+    }
+  }
+  & .comments-arrows {
+    text-align: right;
+    & .unactiveArrow {
+      margin-right: 20px;
+    }
+  }
+}
+.lastSection {
+  margin: 100px 0 150px 0;
+  & .lastSection-block {
+    position: relative;
+    padding: 70px;
+    background: linear-gradient(163.51deg, rgba(86, 46, 194, 0.8) 29.59%, #A07EFE 73.59%);
+    border-radius: 17px;
+    box-shadow: 0 50px 50px rgba(86, 46, 194, 0.3);
+    & img {
+      position: absolute;
+      height: 250px;
+      transform: scale(2);
+      top: 80px;
+      left: 150px;
+      @media (max-width: 425px) {
+        height: 200px;
+      }
+    }
+    & .lastSection-textBlock {
+      & h2 {
+        @include font-medium;
+        font-size: 35;
+        color: white;
+        margin: 0;
+      }
+      & p {
+        color: white;
+        font-size: 18px;
+        margin: 0;
+        margin-top: 20px;
+      }
+      & button {
+        padding: 20px 50px;
+        margin-top: 50px;
+        color: #9F7DFD;
+        font-size: 15px;
+        @include font-medium;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 0 15px 30px rgba(255, 255, 255, 0.5);
+      }
+    }
+  }
+}
+footer {
+  & .footer-logo {
+    padding-bottom: 50px;
+    & p {
+      font-size: 12px;
+      color: $lightMainColor;
+      margin: 5px 0 0 30px;
+    }
+  }
+  & .footer-menu {
+    padding-bottom: 50px;
+    font-size: 14px;
+    & ul {
+      padding: 0;
+      margin: 0;
+      & li {
+        margin: 0 20px;
+      }
+    }
+  }
+  & .footer-socialIcons {
+    padding-bottom: 50px;
+    text-align: right;
+    & img {
+      width: 25px;
+      margin-left: 10px;
+    }
+  }
+}
