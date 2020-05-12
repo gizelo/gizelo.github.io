@@ -120,7 +120,7 @@ ul, li {
     color: #6a6d89; }
 
 .features {
-  padding: 10em 0; }
+  padding: 5em 0; }
   .features__content-left {
     text-align: right;
     padding-right: 10em; }
@@ -178,10 +178,10 @@ ul, li {
 
 .platforms {
   background-color: #fafafc;
-  padding: 10em 0; }
+  padding: 5em 0; }
   .platforms__img {
     width: 50em;
-    padding-bottom: 4em; }
+    padding-bottom: 5em; }
   .platforms__header {
     font-size: 3em;
     font-weight: bold;
@@ -251,6 +251,9 @@ ul, li {
       color: white;
       box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
       bottom: -1.5em; }
+    @media (max-width: 425px) {
+      .availability__button {
+        font-size: 1.7em; } }
 
 .bottom {
   padding: 10em 0; }
