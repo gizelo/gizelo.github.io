@@ -1,0 +1,11 @@
+main {
+    background-image: url('https://i.pinimg.com/originals/32/f5/d3/32f5d33f939082c466c41a1530b520ca.jpg');
+    background-size: 100vw;
+    height: 700px;
+}
+
+main h1 {
+    margin: 0;
+    padding: 200px 0 0 0;
+    font-size: 100px;
+}
