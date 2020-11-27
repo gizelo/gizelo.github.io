@@ -19,7 +19,19 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2709e4b1-8b2f-4974-9726-e21e1a9b9971" name="Default Changelist" comment="" />
+    <list default="true" id="2709e4b1-8b2f-4974-9726-e21e1a9b9971" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/projects/CheeseCafe/contacts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/CheeseCafe/menu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/CheeseCafe/styles/about.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/CheeseCafe/styles/contacts.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/CheeseCafe/styles/menu.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/CheeseCafe/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CheeseCafe/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/CheeseCafe/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CheeseCafe/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/CheeseCafe/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CheeseCafe/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/CheeseCafe/styles/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CheeseCafe/styles/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/CheeseCafe/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CheeseCafe/styles/main.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,6 +40,14 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Pull.Settings">
     <option name="BRANCH" value="master" />
   </component>
@@ -35,17 +55,45 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1kbAtKkQpzdK36cXxGG6QrWe5iX" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/projects/CheeseCafe/styles" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/projects/CheeseCafe/styles" />
+      <recent name="$PROJECT_DIR$/projects/CheeseCafe" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/gizelo.github.io/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -59,6 +107,7 @@
       <workItem from="1605959639630" duration="754000" />
       <workItem from="1606301778664" duration="112000" />
       <workItem from="1606301895406" duration="314000" />
+      <workItem from="1606503286427" duration="13983000" />
     </task>
     <task id="LOCAL-00001" summary="proj added">
       <created>1605959757826</created>
@@ -104,10 +153,22 @@
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="168" y="116" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606503343246">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state x="168" y="116" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1440.875@0.25.1440.875" timestamp="1606503343246" />
     <state x="76" y="55" width="1269" height="802" key="CommitChangelistDialog2" timestamp="1606302040757">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state x="76" y="55" width="1269" height="802" key="CommitChangelistDialog2/0.25.1440.875@0.25.1440.875" timestamp="1606302040757" />
+    <state x="529" y="367" key="Github.CreateGistDialog" timestamp="1606515770897">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state x="529" y="367" key="Github.CreateGistDialog/0.25.1440.875@0.25.1440.875" timestamp="1606515770897" />
+    <state x="229" y="98" key="SettingsEditor" timestamp="1606503414204">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state x="229" y="98" key="SettingsEditor/0.25.1440.875@0.25.1440.875" timestamp="1606503414204" />
     <state x="320" y="199" key="Vcs.Push.Dialog.v2" timestamp="1606302044188">
       <screen x="0" y="25" width="1440" height="875" />
     </state>

@@ -1,11 +1,13 @@
 main {
-    background-image: url('https://i.pinimg.com/originals/32/f5/d3/32f5d33f939082c466c41a1530b520ca.jpg');
+    background-image: url('https://lh3.googleusercontent.com/K4Fka6hTwKrW0Lr3z0rtNQZyNEHOvbyNVE1O4EmFnoo4eFqaACHbeh0hbDJ9ql3PkSA-cg_oedt4mcLqXLHP9pY9Xp-7zzlksRosEDKWAXRBK1nU2bB9OoEZYnZEOQiRp5EYqFDe');
     background-size: 100vw;
-    height: 700px;
+    height: 100vh;
 }
 
 main h1 {
-    margin: 0;
-    padding: 200px 0 0 0;
+    margin: 200px 0 0 0;
+    padding: 5px;
     font-size: 100px;
+    color: #f1cd20;
+    background: #2f2f2f;
 }

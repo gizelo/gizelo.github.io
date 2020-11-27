@@ -1,0 +1,16 @@
+.menuItem {
+    text-align: center;
+    background: #2f2f2f;
+    color: white;
+    border-radius: 20px;
+    width: 25vw;
+    object-fit: contain;
+}
+
+.menuItem a {
+    color: white;
+}
+
+.menuItem img {
+    width: 100%;
+}
