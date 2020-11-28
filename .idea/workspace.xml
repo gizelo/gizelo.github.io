@@ -19,18 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2709e4b1-8b2f-4974-9726-e21e1a9b9971" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/projects/CheeseCafe/contacts.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/CheeseCafe/menu.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/CheeseCafe/styles/about.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/CheeseCafe/styles/contacts.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/CheeseCafe/styles/menu.css" afterDir="false" />
+    <list default="true" id="2709e4b1-8b2f-4974-9726-e21e1a9b9971" name="Default Changelist" comment="cheese cafe upd">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/CheeseCafe/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CheeseCafe/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/CheeseCafe/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CheeseCafe/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/CheeseCafe/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CheeseCafe/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/CheeseCafe/styles/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CheeseCafe/styles/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/CheeseCafe/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CheeseCafe/styles/main.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +97,7 @@
       <workItem from="1605959639630" duration="754000" />
       <workItem from="1606301778664" duration="112000" />
       <workItem from="1606301895406" duration="314000" />
-      <workItem from="1606503286427" duration="13983000" />
+      <workItem from="1606503286427" duration="14365000" />
     </task>
     <task id="LOCAL-00001" summary="proj added">
       <created>1605959757826</created>
@@ -123,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606302041037</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="cheese cafe upd">
+      <created>1606519749297</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1606519749297</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,7 +144,8 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <MESSAGE value="proj added" />
-    <option name="LAST_COMMIT_MESSAGE" value="proj added" />
+    <MESSAGE value="cheese cafe upd" />
+    <option name="LAST_COMMIT_MESSAGE" value="cheese cafe upd" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -157,10 +155,10 @@
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state x="168" y="116" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1440.875@0.25.1440.875" timestamp="1606503343246" />
-    <state x="76" y="55" width="1269" height="802" key="CommitChangelistDialog2" timestamp="1606302040757">
+    <state x="76" y="55" width="1269" height="802" key="CommitChangelistDialog2" timestamp="1606520059767">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
-    <state x="76" y="55" width="1269" height="802" key="CommitChangelistDialog2/0.25.1440.875@0.25.1440.875" timestamp="1606302040757" />
+    <state x="76" y="55" width="1269" height="802" key="CommitChangelistDialog2/0.25.1440.875@0.25.1440.875" timestamp="1606520059767" />
     <state x="529" y="367" key="Github.CreateGistDialog" timestamp="1606515770897">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
@@ -169,13 +167,13 @@
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state x="229" y="98" key="SettingsEditor/0.25.1440.875@0.25.1440.875" timestamp="1606503414204" />
-    <state x="320" y="199" key="Vcs.Push.Dialog.v2" timestamp="1606302044188">
+    <state x="320" y="199" key="Vcs.Push.Dialog.v2" timestamp="1606519751012">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
-    <state x="320" y="199" key="Vcs.Push.Dialog.v2/0.25.1440.875@0.25.1440.875" timestamp="1606302044188" />
-    <state x="521" y="380" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606301931880">
+    <state x="320" y="199" key="Vcs.Push.Dialog.v2/0.25.1440.875@0.25.1440.875" timestamp="1606519751012" />
+    <state x="521" y="380" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606519586467">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
-    <state x="521" y="380" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.1440.875@0.25.1440.875" timestamp="1606301931880" />
+    <state x="521" y="380" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.1440.875@0.25.1440.875" timestamp="1606519586467" />
   </component>
 </project>
