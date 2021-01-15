@@ -21,6 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2709e4b1-8b2f-4974-9726-e21e1a9b9971" name="Default Changelist" comment="cheese cafe upd">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +54,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
@@ -98,6 +100,7 @@
       <workItem from="1606301778664" duration="112000" />
       <workItem from="1606301895406" duration="314000" />
       <workItem from="1606503286427" duration="14365000" />
+      <workItem from="1610711172675" duration="1348000" />
     </task>
     <task id="LOCAL-00001" summary="proj added">
       <created>1605959757826</created>
@@ -143,6 +146,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="proj added" />
     <MESSAGE value="cheese cafe upd" />
     <option name="LAST_COMMIT_MESSAGE" value="cheese cafe upd" />
