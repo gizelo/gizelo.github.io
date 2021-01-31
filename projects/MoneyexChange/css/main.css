@@ -1,305 +1,462 @@
 body {
-  font-family: "Rubik";
-  color: #4E5983; }
+    font-family: "Rubik";
+    color: #4E5983;
+}
 
 ul {
-  list-style: none; }
+    list-style: none;
+}
 
 a {
-  color: #4E5983; }
-  a:hover {
+    color: #4E5983;
+}
+
+a:hover {
     text-decoration: none;
-    color: #4E5983; }
+    color: #4E5983;
+}
 
 .btn {
-  color: #4E5983; }
-  .btn:hover {
-    color: #4E5983; }
+    color: #4E5983;
+}
+
+.btn:hover {
+    color: #4E5983;
+}
 
 header {
-  padding: 15px 0;
-  font-size: 16px; }
-  header .logo {
-    margin-top: 15px; }
-  header .header-menu {
+    padding: 15px 0;
+    font-size: 16px;
+}
+
+header .logo {
+    margin-top: 15px;
+}
+
+header .header-menu {
     padding: 0;
-    margin-top: 15px; }
-    header .header-menu li {
-      margin: 0px 30px; }
-    @media (max-width: 1024px) {
-      header .header-menu {
-        float: left; } }
-  header .logIn-section {
-    text-align: right; }
-    header .logIn-section button {
-      padding: 15px 30px;
-      border-radius: 9px; }
-    header .logIn-section .btn-reg {
-      background-color: #e7deff;
-      font-weight: 500; }
-    @media (max-width: 1024px) {
-      header .logIn-section {
-        float: left; } }
+    margin-top: 15px;
+}
+
+header .header-menu li {
+    margin: 0px 30px;
+}
+
+@media (max-width: 1024px) {
+    header .header-menu {
+        float: left;
+    }
+}
+
+header .logIn-section {
+    text-align: right;
+}
+
+header .logIn-section button {
+    padding: 15px 30px;
+    border-radius: 9px;
+}
+
+header .logIn-section .btn-reg {
+    background-color: #e7deff;
+    font-weight: 500;
+}
+
+@media (max-width: 1024px) {
+    header .logIn-section {
+        float: left;
+    }
+}
 
 main {
-  background: url("../img/main_bg.png");
-  background-size: cover;
-  padding-bottom: 80px; }
-  main .main-header {
+    background: url("../img/main_bg.png");
+    background-size: cover;
+    padding-bottom: 80px;
+}
+
+main .main-header {
     color: white;
-    text-align: center; }
-    main .main-header h1 {
-      font-weight: 700;
-      font-size: 60px;
-      margin: 100px 0 0 0; }
-    main .main-header h2 {
-      font-weight: 400;
-      font-size: 19px;
-      margin: 40px 0; }
-  main .calculator {
+    text-align: center;
+}
+
+main .main-header h1 {
+    font-weight: 700;
+    font-size: 60px;
+    margin: 100px 0 0 0;
+}
+
+main .main-header h2 {
+    font-weight: 400;
+    font-size: 19px;
+    margin: 40px 0;
+}
+
+main .calculator {
     padding: 50px 100px 30px 100px;
     background-color: white;
-    border-radius: 25px; }
-    main .calculator .giveGet {
-      padding-bottom: 20px; }
-      main .calculator .giveGet .giveGet-header {
-        font-size: 18px;
-        margin-bottom: 20px;
-        font-weight: 500;
-        display: inline-block;
-        margin-right: 15px; }
-      main .calculator .giveGet .tip {
-        font-size: 12px;
-        color: #8389a8;
-        display: inline-block; }
-      main .calculator .giveGet .giveGet-calculate .sumHeader {
-        color: #8389a8;
-        font-size: 14px;
-        margin-bottom: 15px; }
-      main .calculator .giveGet .giveGet-calculate .sum {
-        display: inline-block;
-        font-size: 20px;
-        margin-right: 10px;
-        min-width: 150px; }
-        main .calculator .giveGet .giveGet-calculate .sum span {
-          color: #8389a8; }
-      main .calculator .giveGet .giveGet-calculate .currency {
-        display: inline-block; }
-        main .calculator .giveGet .giveGet-calculate .currency * {
-          display: inline-block; }
-        main .calculator .giveGet .giveGet-calculate .currency .currencyImg {
-          width: 40px;
-          margin-right: 10px; }
-        main .calculator .giveGet .giveGet-calculate .currency p {
-          text-transform: uppercase;
-          font-size: 16px;
-          margin-right: 5px; }
-        main .calculator .giveGet .giveGet-calculate .currency .currencyDropDown {
-          width: 20px;
-          margin-top: -5px; }
-    main .calculator .giveGetArrows {
-      padding-bottom: 20px;
-      text-align: center;
-      height: 100%;
-      display: flex;
-      align-items: flex-end;
-      justify-content: center; }
-      main .calculator .giveGetArrows img {
-        width: 20px;
-        margin-bottom: 20px; }
-    main .calculator .exchangeBtn {
-      text-align: center;
-      padding-bottom: 20px;
-      height: 100%;
-      display: flex;
-      align-items: flex-end;
-      justify-content: center; }
-      main .calculator .exchangeBtn button {
-        margin-bottom: 10px;
-        padding: 10px 30px;
-        color: white;
-        font-size: 14px;
-        font-weight: 700;
-        border: none;
-        background: linear-gradient(163.94deg, #562EC2 29.59%, #A07EFE 73.59%);
-        opacity: 0.8;
-        border-radius: 9px;
-        box-shadow: 0 5px 10px rgba(86, 46, 194, 0.5); }
-  main .fadeOutBlocks {
-    position: relative; }
-    main .fadeOutBlocks .fadeOutBlock1, main .fadeOutBlocks .fadeOutBlock2 {
-      position: absolute;
-      background-color: white;
-      opacity: 0.2;
-      border-radius: 0 0 26px 26px; }
-    main .fadeOutBlocks .fadeOutBlock1 {
-      width: 85%;
-      height: 15px; }
-    main .fadeOutBlocks .fadeOutBlock2 {
-      width: 80%;
-      height: 30px; }
+    border-radius: 25px;
+}
+
+main .calculator .giveGet {
+    padding-bottom: 20px;
+}
+
+main .calculator .giveGet .giveGet-header {
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-weight: 500;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+main .calculator .giveGet .tip {
+    font-size: 12px;
+    color: #8389a8;
+    display: inline-block;
+}
+
+main .calculator .giveGet .giveGet-calculate .sumHeader {
+    color: #8389a8;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+main .calculator .giveGet .giveGet-calculate .sum {
+    display: inline-block;
+    font-size: 20px;
+    margin-right: 10px;
+    min-width: 150px;
+}
+
+main .calculator .giveGet .giveGet-calculate .sum span {
+    color: #8389a8;
+}
+
+main .calculator .giveGet .giveGet-calculate .currency {
+    display: inline-block;
+}
+
+main .calculator .giveGet .giveGet-calculate .currency * {
+    display: inline-block;
+}
+
+main .calculator .giveGet .giveGet-calculate .currency .currencyImg {
+    width: 40px;
+    margin-right: 10px;
+}
+
+main .calculator .giveGet .giveGet-calculate .currency p {
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-right: 5px;
+}
+
+main .calculator .giveGet .giveGet-calculate .currency .currencyDropDown {
+    width: 20px;
+    margin-top: -5px;
+}
+
+main .calculator .giveGetArrows {
+    padding-bottom: 20px;
+    text-align: center;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+main .calculator .giveGetArrows img {
+    width: 20px;
+    margin-bottom: 20px;
+}
+
+main .calculator .exchangeBtn {
+    text-align: center;
+    padding-bottom: 20px;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+main .calculator .exchangeBtn button {
+    margin-bottom: 10px;
+    padding: 10px 30px;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    border: none;
+    background: linear-gradient(163.94deg, #562EC2 29.59%, #A07EFE 73.59%);
+    opacity: 0.8;
+    border-radius: 9px;
+    box-shadow: 0 5px 10px rgba(86, 46, 194, 0.5);
+}
+
+main .fadeOutBlocks {
+    position: relative;
+}
+
+main .fadeOutBlocks .fadeOutBlock1, main .fadeOutBlocks .fadeOutBlock2 {
+    position: absolute;
+    background-color: white;
+    opacity: 0.2;
+    border-radius: 0 0 26px 26px;
+}
+
+main .fadeOutBlocks .fadeOutBlock1 {
+    width: 85%;
+    height: 15px;
+}
+
+main .fadeOutBlocks .fadeOutBlock2 {
+    width: 80%;
+    height: 30px;
+}
 
 .advantages {
-  padding-top: 80px; }
-  .advantages .advantages-block {
+    padding-top: 80px;
+}
+
+.advantages .advantages-block {
     padding: 0 20px 80px 20px;
     width: 350px;
     text-align: center;
-    margin: auto; }
-    .advantages .advantages-block img {
-      width: 150px;
-      margin-bottom: 30px; }
-    .advantages .advantages-block h3 {
-      font-weight: 500;
-      font-size: 22px;
-      margin-bottom: 30px; }
-    .advantages .advantages-block p {
-      font-size: 18px;
-      color: #8389a8; }
+    margin: auto;
+}
+
+.advantages .advantages-block img {
+    width: 150px;
+    margin-bottom: 30px;
+}
+
+.advantages .advantages-block h3 {
+    font-weight: 500;
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+
+.advantages .advantages-block p {
+    font-size: 18px;
+    color: #8389a8;
+}
 
 .reputation {
-  position: relative;
-  padding-bottom: 100px; }
-  .reputation .bgBlock {
+    position: relative;
+    padding-bottom: 100px;
+}
+
+.reputation .bgBlock {
     z-index: -1;
     position: absolute;
     height: 50%;
     width: 100%;
     top: 50%;
-    background: linear-gradient(180deg, #EFF2FA 0%, rgba(255, 255, 255, 0) 100%); }
-  .reputation .reputation-block {
+    background: linear-gradient(180deg, #EFF2FA 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.reputation .reputation-block {
     padding: 100px;
     background-color: white;
     border: 5px solid #F7F8FD;
     border-radius: 26px;
-    box-shadow: 0 50px 50px rgba(78, 89, 131, 0.1); }
-    .reputation .reputation-block .reputation-text {
-      padding-right: 100px; }
-      .reputation .reputation-block .reputation-text h1 {
-        font-weight: 500;
-        font-size: 35px;
-        margin: 0;
-        margin-bottom: 30px;
-        color: #160647; }
-      .reputation .reputation-block .reputation-text p {
-        font-size: 18px;
-        margin: 0; }
-    .reputation .reputation-block img {
-      width: 450px;
-      margin-top: 100px; }
+    box-shadow: 0 50px 50px rgba(78, 89, 131, 0.1);
+}
+
+.reputation .reputation-block .reputation-text {
+    padding-right: 100px;
+}
+
+.reputation .reputation-block .reputation-text h1 {
+    font-weight: 500;
+    font-size: 35px;
+    margin: 0;
+    margin-bottom: 30px;
+    color: #160647;
+}
+
+.reputation .reputation-block .reputation-text p {
+    font-size: 18px;
+    margin: 0;
+}
+
+.reputation .reputation-block img {
+    width: 450px;
+    margin-top: 100px;
+}
 
 .currencySection {
-  padding: 50px 0; }
-  .currencySection .currency-header {
-    text-align: center; }
-    .currencySection .currency-header h1 {
-      color: #160647;
-      font-size: 35px;
-      font-weight: 500; }
-  .currencySection .currency-blocks {
-    padding-top: 70px; }
-    .currencySection .currency-blocks .currency-block {
-      display: flex;
-      align-items: center;
-      margin: 0 50px 50px 0; }
-      .currencySection .currency-blocks .currency-block img {
-        display: inline-block;
-        margin-right: 30px; }
-      .currencySection .currency-blocks .currency-block .currency-block-text {
-        display: inline-block; }
-        .currencySection .currency-blocks .currency-block .currency-block-text .currency-name {
-          font-size: 15px;
-          margin-bottom: 3px; }
-        .currencySection .currency-blocks .currency-block .currency-block-text .currency-sum {
-          color: #160647;
-          font-size: 20px;
-          margin: 0; }
+    padding: 50px 0;
+}
 
-.comments {
-  margin: 50px 0; }
-  .comments .comments-header h1 {
+.currencySection .currency-header {
+    text-align: center;
+}
+
+.currencySection .currency-header h1 {
     color: #160647;
     font-size: 35px;
     font-weight: 500;
-    margin: 0; }
-  .comments .comments-blocks {
+}
+
+.currencySection .currency-blocks {
+    padding-top: 70px;
+}
+
+.currencySection .currency-blocks .currency-block {
+    display: flex;
+    align-items: center;
+    margin: 0 50px 50px 0;
+}
+
+.currencySection .currency-blocks .currency-block img {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.currencySection .currency-blocks .currency-block .currency-block-text {
+    display: inline-block;
+}
+
+.currencySection .currency-blocks .currency-block .currency-block-text .currency-name {
+    font-size: 15px;
+    margin-bottom: 3px;
+}
+
+.currencySection .currency-blocks .currency-block .currency-block-text .currency-sum {
+    color: #160647;
+    font-size: 20px;
+    margin: 0;
+}
+
+.comments {
+    margin: 50px 0;
+}
+
+.comments .comments-header h1 {
+    color: #160647;
+    font-size: 35px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.comments .comments-blocks {
     margin-top: 100px;
-    margin-bottom: 50px; }
-    .comments .comments-blocks .comment-block {
-      padding-right: 60px; }
-      .comments .comments-blocks .comment-block .comment-text {
-        font-size: 18px;
-        margin-bottom: 50px;
-        height: 110px; }
-      .comments .comments-blocks .comment-block .comment-author {
-        font-size: 20px;
-        color: #160647;
-        display: inline-block;
-        margin-right: 30px; }
-      .comments .comments-blocks .comment-block .comment-date {
-        font-size: 14px;
-        display: inline-block; }
-  .comments .comments-arrows {
-    text-align: right; }
-    .comments .comments-arrows .unactiveArrow {
-      margin-right: 20px; }
+    margin-bottom: 50px;
+}
+
+.comments .comments-blocks .comment-block {
+    padding-right: 60px;
+}
+
+.comments .comments-blocks .comment-block .comment-text {
+    font-size: 18px;
+    margin-bottom: 50px;
+    height: 110px;
+}
+
+.comments .comments-blocks .comment-block .comment-author {
+    font-size: 20px;
+    color: #160647;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.comments .comments-blocks .comment-block .comment-date {
+    font-size: 14px;
+    display: inline-block;
+}
+
+.comments .comments-arrows {
+    text-align: right;
+}
+
+.comments .comments-arrows .unactiveArrow {
+    margin-right: 20px;
+}
 
 .lastSection {
-  margin: 100px 0 150px 0; }
-  .lastSection .lastSection-block {
+    margin: 100px 0 150px 0;
+}
+
+.lastSection .lastSection-block {
     position: relative;
     padding: 70px;
     background: linear-gradient(163.51deg, rgba(86, 46, 194, 0.8) 29.59%, #A07EFE 73.59%);
     border-radius: 17px;
-    box-shadow: 0 50px 50px rgba(86, 46, 194, 0.3); }
+    box-shadow: 0 50px 50px rgba(86, 46, 194, 0.3);
+}
+
+.lastSection .lastSection-block img {
+    position: absolute;
+    height: 250px;
+    transform: scale(2);
+    top: 80px;
+    left: 150px;
+}
+
+@media (max-width: 425px) {
     .lastSection .lastSection-block img {
-      position: absolute;
-      height: 250px;
-      transform: scale(2);
-      top: 80px;
-      left: 150px; }
-      @media (max-width: 425px) {
-        .lastSection .lastSection-block img {
-          height: 200px; } }
-    .lastSection .lastSection-block .lastSection-textBlock h2 {
-      font-weight: 500;
-      font-size: 35;
-      color: white;
-      margin: 0; }
-    .lastSection .lastSection-block .lastSection-textBlock p {
-      color: white;
-      font-size: 18px;
-      margin: 0;
-      margin-top: 20px; }
-    .lastSection .lastSection-block .lastSection-textBlock button {
-      padding: 20px 50px;
-      margin-top: 50px;
-      color: #9F7DFD;
-      font-size: 15px;
-      font-weight: 500;
-      background-color: white;
-      border-radius: 10px;
-      box-shadow: 0 15px 30px rgba(255, 255, 255, 0.5); }
+        height: 200px;
+    }
+}
+
+.lastSection .lastSection-block .lastSection-textBlock h2 {
+    font-weight: 500;
+    font-size: 35;
+    color: white;
+    margin: 0;
+}
+
+.lastSection .lastSection-block .lastSection-textBlock p {
+    color: white;
+    font-size: 18px;
+    margin: 0;
+    margin-top: 20px;
+}
+
+.lastSection .lastSection-block .lastSection-textBlock button {
+    padding: 20px 50px;
+    margin-top: 50px;
+    color: #9F7DFD;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 15px 30px rgba(255, 255, 255, 0.5);
+}
 
 footer .footer-logo {
-  padding-bottom: 50px; }
-  footer .footer-logo p {
+    padding-bottom: 50px;
+}
+
+footer .footer-logo p {
     font-size: 12px;
     color: #8389a8;
-    margin: 5px 0 0 30px; }
+    margin: 5px 0 0 30px;
+}
+
 footer .footer-menu {
-  padding-bottom: 50px;
-  font-size: 14px; }
-  footer .footer-menu ul {
+    padding-bottom: 50px;
+    font-size: 14px;
+}
+
+footer .footer-menu ul {
     padding: 0;
-    margin: 0; }
-    footer .footer-menu ul li {
-      margin: 0 20px; }
+    margin: 0;
+}
+
+footer .footer-menu ul li {
+    margin: 0 20px;
+}
+
 footer .footer-socialIcons {
-  padding-bottom: 50px;
-  text-align: right; }
-  footer .footer-socialIcons img {
+    padding-bottom: 50px;
+    text-align: right;
+}
+
+footer .footer-socialIcons img {
     width: 25px;
-    margin-left: 10px; }
+    margin-left: 10px;
+}
 
 /*# sourceMappingURL=main.css.map */

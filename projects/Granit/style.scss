@@ -6,9 +6,11 @@ body {
   font-family: "Montserrat";
   color: $lightGrey;
 }
+
 a {
   text-decoration: none;
 }
+
 h1 {
   text-transform: uppercase;
   font-weight: bold;
@@ -28,6 +30,7 @@ h1 {
   height: 39px;
   background-color: white;
 }
+
 header {
   padding: 30px 0px;
 }
@@ -37,12 +40,15 @@ header {
     width: 40px;
     margin-top: -23px;
   }
+
   & .logo-section-text {
     margin-left: 10px;
   }
-  & img , & .logo-section-text {
+
+  & img, & .logo-section-text {
     display: inline-block;
   }
+
   & .logo-section-text-header {
     text-transform: uppercase;
     font-weight: bold;
@@ -50,12 +56,14 @@ header {
     color: $darkGrey;
     margin: 0;
   }
+
   & .logo-section-text-p {
     font-size: 12px;
     line-height: 12px;
     margin: 0;
   }
 }
+
 .phone-section {
   & .phone-section-number {
     color: $darkGrey;
@@ -64,6 +72,7 @@ header {
     margin: 0;
     margin-right: 20px;
   }
+
   & .phone-section-p {
     font-size: 12px;
     float: right;
@@ -71,9 +80,11 @@ header {
     margin-right: 20px;
   }
 }
+
 .callback-section {
   margin: 0;
   padding: 0;
+
   & button {
     margin: 0;
     padding: 10px 25px;
@@ -81,6 +92,7 @@ header {
     border-radius: 0px;
     font-size: 12px;
     font-weight: bold;
+
     &:hover {
       background-color: $mainColor;
     }
@@ -102,6 +114,7 @@ main {
   & li {
     padding: 20px 50px;
     font-weight: bold;
+
     & a {
       color: $darkGrey;
     }
@@ -111,17 +124,21 @@ main {
 .main-header {
   color: white;
   margin-top: 90px;
+
   & h1 {
     font-size: 45px;
     font-weight: bold;
   }
+
   & p {
     font-size: 15px;
     margin-top: 40px;
   }
 }
+
 .main-act {
   margin-top: 40px;
+
   & .main-act-btn {
     display: inline-block;
     color: $darkGrey;
@@ -130,14 +147,17 @@ main {
     border-radius: 0px;
     font-size: 15px;
     font-weight: bold;
+
     &:hover {
       background-color: white;
     }
   }
+
   & p {
     display: inline-block;
     margin-left: 30px;
     color: white;
+
     & a {
       color: white;
       font-weight: bold;
@@ -146,30 +166,36 @@ main {
   }
 }
 
-.materials{
+.materials {
   margin-bottom: 80px;
+
   & div {
     width: 400px;
     margin: 0px 20px;
     padding: 0px 20px;
     border: 1px solid lighten($lightGrey, 45%);
     text-align: center;
+
     &:hover {
-      box-shadow: 0 0 50px rgba(0,0,0,0.05);
+      box-shadow: 0 0 50px rgba(0, 0, 0, 0.05);
     }
+
     & img {
       margin: 50px 20px;
     }
+
     & h2 {
       color: $darkGrey;
       font-weight: bold;
       font-size: 20px;
       margin-bottom: 20px;
     }
+
     & p {
       margin-bottom: 50px;
       font-size: 15px;
     }
+
     & button {
       background-color: $mainColor;
       border-radius: 0px;
@@ -177,6 +203,7 @@ main {
       padding: 15px 50px;
       color: $darkGrey;
       margin: 30px 0px;
+
       &:hover {
         background-color: white;
       }
@@ -187,8 +214,10 @@ main {
 #advantages {
   background-color: lighten($lightGrey, 45%);
 }
+
 .advantages-blocks {
   margin-bottom: 80px;
+
   & div {
     width: 400px;
     margin: 0px 20px;
@@ -196,20 +225,24 @@ main {
     border: 1px solid white;
     border-radius: 0px;
     text-align: center;
+
     &:hover {
       background-color: white;
-      box-shadow: 0 0 50px rgba(0,0,0,0.05);
+      box-shadow: 0 0 50px rgba(0, 0, 0, 0.05);
       cursor: default;
     }
+
     & img {
       margin: 50px 20px;
     }
+
     & h2 {
       color: $darkGrey;
       font-weight: bold;
       font-size: 20px;
       margin-bottom: 20px;
     }
+
     & p {
       margin-bottom: 50px;
       font-size: 15px;
@@ -220,18 +253,22 @@ main {
 
 .popular-blocks {
   margin-bottom: 80px;
+
   & div {
     width: 400px;
     margin: 0px 10px;
     padding: 0px 10px;
     border: 1px solid lighten($lightGrey, 45%);
     text-align: center;
+
     &:hover {
-      box-shadow: 0 0 50px rgba(0,0,0,0.05);
+      box-shadow: 0 0 50px rgba(0, 0, 0, 0.05);
     }
+
     & span {
       position: relative;
     }
+
     & h3 {
       position: absolute;
       display: inline-flex;
@@ -243,9 +280,11 @@ main {
       padding: 5px 10px;
       text-transform: uppercase;
     }
+
     & img {
       margin: 20px 0px;
     }
+
     & h2 {
       color: $darkGrey;
       font-size: 18px;
@@ -253,20 +292,24 @@ main {
       font-weight: bold;
       display: inline-block;
     }
+
     & p {
       margin-bottom: 20px;
       font-size: 12px;
       color: $darkGrey;
     }
+
     & .oldPrice {
       color: $lightGrey;
       text-decoration: line-through;
       display: inline-block;
       margin-right: 20px;
     }
+
     & .newPrice {
       color: lighten(red, 10);
     }
+
     & button {
       background-color: $mainColor;
       border-radius: 0px;
@@ -274,6 +317,7 @@ main {
       padding: 15px 50px;
       color: $darkGrey;
       margin-bottom: 20px;
+
       &:hover {
         background-color: white;
       }
@@ -284,8 +328,10 @@ main {
 #servise {
   background-color: lighten($lightGrey, 45%);
 }
+
 .servise-blocks {
   margin-bottom: 80px;
+
   & div {
     width: 400px;
     margin: 0px 20px;
@@ -293,19 +339,23 @@ main {
     border: 1px solid white;
     border-radius: 0px;
     text-align: center;
+
     &:hover {
       background-color: white;
-      box-shadow: 0 0 50px rgba(0,0,0,0.05);
+      box-shadow: 0 0 50px rgba(0, 0, 0, 0.05);
     }
+
     & img {
       margin: 50px 20px;
     }
+
     & h2 {
       color: $darkGrey;
       font-weight: bold;
       font-size: 20px;
       margin-bottom: 20px;
     }
+
     & p {
       margin-bottom: 50px;
       font-size: 15px;
@@ -319,31 +369,38 @@ main {
   background-position: center top;
   background-repeat: no-repeat;
 }
+
 .contacts-block {
   background-color: white;
   padding: 50px;
   margin: 50px 0px;
   color: $darkGrey;
+
   & div {
     margin-bottom: 20px;
   }
+
   & a {
     color: $darkGrey;
   }
+
   & h2 {
     font-weight: bold;
     font-size: 25px;
     margin-bottom: 40px;
   }
+
   & img {
     display: inline-block;
     margin-right: 20px;
     width: 13px;
   }
+
   & p {
     display: inline-block;
     font-size: 15px;
   }
+
   & .num {
     font-weight: bold;
   }
@@ -352,23 +409,28 @@ main {
 footer {
   padding: 50px 0px;
   background-color: $darkGrey;
+
   & .c {
     color: white;
     font-size: 15px;
     margin-top: 50px;
   }
 }
+
 .footer-logo-section {
   & img {
     width: 40px;
     margin-top: -23px;
   }
+
   & .footer-logo-section-text {
     margin-left: 10px;
   }
-  & img , & .footer-logo-section-text {
+
+  & img, & .footer-logo-section-text {
     display: inline-block;
   }
+
   & .footer-logo-section-text-header {
     text-transform: uppercase;
     font-weight: bold;
@@ -376,12 +438,14 @@ footer {
     color: white;
     margin: 0;
   }
+
   & .footer-logo-section-text-p {
     font-size: 12px;
     line-height: 12px;
     margin: 0;
   }
 }
+
 .footer-phone-section {
   & .footer-phone-section-number {
     color: white;
@@ -389,13 +453,15 @@ footer {
     float: right;
     margin: 0;
   }
+
   & .footer-phone-section-p {
     font-size: 12px;
     float: right;
     margin: 0;
   }
 }
-.footer-callback{
+
+.footer-callback {
   float: right;
   width: 190px;
   margin-top: 30px;
@@ -405,6 +471,7 @@ footer {
   font-size: 12px;
   font-weight: bold;
   color: white;
+
   &:hover {
     background-color: white;
   }
@@ -420,6 +487,7 @@ footer {
   height: 100%;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.5);
+
   &__content {
     margin: 0 auto;
     margin-top: 200px;
@@ -428,6 +496,7 @@ footer {
     transform: translateX(-50%);
     background-color: white;
     padding: 50px;
+
     & h2 {
       color: $darkGrey;
       text-transform: uppercase;
@@ -437,6 +506,7 @@ footer {
       background-color: $mainColor;
       padding: 20px 30px;
     }
+
     & form {
       & input {
         margin: 10px 0;
@@ -446,10 +516,12 @@ footer {
         text-align: left;
         font-size: 15px;
         width: 100%;
+
         &:hover {
           border-color: $mainColor;
         }
       }
+
       & button {
         margin: 10px 0;
         border: solid 2px $mainColor;
@@ -458,12 +530,14 @@ footer {
         font-size: 13px;
         font-weight: bold;
         width: 100%;
+
         &:hover {
           background-color: $mainColor;
         }
       }
     }
   }
+
   &__close {
     position: absolute;
     top: -7px;
@@ -472,6 +546,7 @@ footer {
     background: none;
     border: none;
     color: $darkGrey;
+
     &:focus {
       outline: none;
     }

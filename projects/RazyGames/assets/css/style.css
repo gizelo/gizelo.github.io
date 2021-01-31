@@ -43,7 +43,6 @@ hr {
 }
 
 
-
 /* Intro */
 .intro {
     display: flex;
@@ -285,7 +284,6 @@ hr {
 }
 
 
-
 /* Slider */
 .slider {
     width: 100%;
@@ -404,7 +402,6 @@ hr {
 }
 
 
-
 /* Card */
 .card {
     margin: 80px -15px 0;
@@ -487,7 +484,6 @@ hr {
     font-weight: 300;
     color: #999;
 }
-
 
 
 /* Statistics */
@@ -676,7 +672,6 @@ hr {
     color: #333;
     text-transform: uppercase;
 }
-
 
 
 /* Reviews */
@@ -888,7 +883,6 @@ hr {
 }
 
 
-
 /* Clients */
 .clients {
     display: flex;
@@ -1073,7 +1067,6 @@ hr {
 }
 
 
-
 /* Footer */
 .footer {
     padding-top: 65px;
@@ -1162,7 +1155,6 @@ hr {
     color: #333;
     text-transform: uppercase;
 }
-
 
 
 /* Blogs */
@@ -1300,13 +1292,11 @@ hr {
 }
 
 
-
-
 @media (max-width: 1230px) {
 
     /* Header */
     .header__logotype {
-      width: 50px;
+        width: 50px;
     }
 
     /* Intro */
@@ -1337,7 +1327,7 @@ hr {
 
     /* Stat */
     .stat {
-       justify-content: center;
+        justify-content: center;
     }
 
     .stat__item {
