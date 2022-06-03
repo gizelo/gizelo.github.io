@@ -1,0 +1,110 @@
+@import url(normalize.css);
+@import url(flexboxgrid.min.css);
+@import url(fonts.css);
+@import url(header.css);
+@import url(footer.css);
+@import url(home.css);
+@import url(catalog.css);
+@import url(category.css);
+@import url(product.css);
+
+* {
+    outline: none;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 16px;
+}
+
+body {
+    min-width: 425px;
+    background-color: #fff;
+    font-family: 'Cairo', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    color: #353535;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+@media (max-width: 1024px) {
+    html {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 768px) {
+    html {
+        font-size: 12px;
+    }
+
+    .container {
+        max-width: 90%;
+    }
+}
+
+.container-fluid {
+    padding-right: .5rem;
+    padding-left: .5rem;
+}
+
+.dot {
+    width: 5px;
+    height: 5px;
+    background-color: #1F7A8C;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1 {
+    font-size: 5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+h2 {
+    font-size: 3.1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+h4 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+h5 {
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.link-block {
+    color: #9a9a9a;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+
+.link-block a {
+    color: #9a9a9a;
+}

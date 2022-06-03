@@ -20,55 +20,64 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2709e4b1-8b2f-4974-9726-e21e1a9b9971" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/projects/Granit/main.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/GrooveApp/main.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/MoneyexChange/main.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/RazyGames/main.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/TTLine/main.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/UserTable/main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/TTLine/catalog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/TTLine/category.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/TTLine/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/TTLine/product.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/TTLine/src/css/catalog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/TTLine/src/css/category.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/TTLine/src/css/flexboxgrid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/TTLine/src/css/fonts.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/TTLine/src/css/footer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/TTLine/src/css/header.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/TTLine/src/css/home.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/TTLine/src/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/TTLine/src/css/normalize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/TTLine/src/css/product.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/TTLine/src/fonts/Cairo-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/TTLine/src/fonts/Cairo-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/TTLine/src/img/arrow-down.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/TTLine/src/img/arrow-down2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/TTLine/src/img/barcode-icon.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/TTLine/src/img/barcode1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/TTLine/src/img/barcode2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/TTLine/src/img/card-icon_1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/TTLine/src/img/card-icon_2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/TTLine/src/img/card-icon_3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/TTLine/src/img/card-icon_4.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/TTLine/src/img/card-icon_5.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/TTLine/src/img/card_bg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/TTLine/src/img/catalog.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/TTLine/src/img/footer_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/TTLine/src/img/item1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/TTLine/src/img/item2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/TTLine/src/img/item3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/TTLine/src/img/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/TTLine/src/img/logo_white.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/TTLine/src/img/main-block__bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/TTLine/src/img/map_bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/TTLine/src/img/palet.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/TTLine/src/img/phone.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/TTLine/src/img/product1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/TTLine/src/img/product10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/TTLine/src/img/product2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/TTLine/src/img/product3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/TTLine/src/img/product4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/TTLine/src/img/product5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/TTLine/src/img/product6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/TTLine/src/img/product7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/TTLine/src/img/product8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/TTLine/src/img/product9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/TTLine/src/img/search.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/TTLine/src/img/section3-footer_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/TTLine/src/img/section3_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/TTLine/src/img/test.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/TTLine/src/img/test1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/TTLine/src/img/test2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/TTLine/src/img/test3.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/Gimecs/img/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/Gimecs/img/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/Gimecs/img/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/Gimecs/img/find.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/Gimecs/img/menu.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/Gimecs/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/Gimecs/styles/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/Gimecs/styles/main.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/Gimecs/styles/main.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/Granit/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/Granit/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/Granit/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/Granit/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/Granit/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/projects/Granit/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/Granit/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/projects/Granit/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/Granit/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/projects/Granit/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/GrooveApp/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/projects/GrooveApp/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/GrooveApp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/GrooveApp/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/GrooveApp/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/GrooveApp/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/MoneyexChange/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/projects/MoneyexChange/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/MoneyexChange/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/projects/MoneyexChange/css/main.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/MoneyexChange/css/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/projects/MoneyexChange/css/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/MoneyexChange/css/normalize.css" beforeDir="false" afterPath="$PROJECT_DIR$/projects/MoneyexChange/css/normalize.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/MoneyexChange/img/activeArrow.svg" beforeDir="false" afterPath="$PROJECT_DIR$/projects/MoneyexChange/img/activeArrow.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/MoneyexChange/img/currency1.svg" beforeDir="false" afterPath="$PROJECT_DIR$/projects/MoneyexChange/img/currency1.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/MoneyexChange/img/currency2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/projects/MoneyexChange/img/currency2.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/MoneyexChange/img/currency3.svg" beforeDir="false" afterPath="$PROJECT_DIR$/projects/MoneyexChange/img/currency3.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/MoneyexChange/img/currency4.svg" beforeDir="false" afterPath="$PROJECT_DIR$/projects/MoneyexChange/img/currency4.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/MoneyexChange/img/currency5.svg" beforeDir="false" afterPath="$PROJECT_DIR$/projects/MoneyexChange/img/currency5.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/MoneyexChange/img/currency6.svg" beforeDir="false" afterPath="$PROJECT_DIR$/projects/MoneyexChange/img/currency6.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/MoneyexChange/img/currency7.svg" beforeDir="false" afterPath="$PROJECT_DIR$/projects/MoneyexChange/img/currency7.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/MoneyexChange/img/currency8.svg" beforeDir="false" afterPath="$PROJECT_DIR$/projects/MoneyexChange/img/currency8.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/MoneyexChange/img/facebook.svg" beforeDir="false" afterPath="$PROJECT_DIR$/projects/MoneyexChange/img/facebook.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/MoneyexChange/img/fullLogo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/projects/MoneyexChange/img/fullLogo.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/MoneyexChange/img/instagram.svg" beforeDir="false" afterPath="$PROJECT_DIR$/projects/MoneyexChange/img/instagram.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/MoneyexChange/img/unactiveArrow.svg" beforeDir="false" afterPath="$PROJECT_DIR$/projects/MoneyexChange/img/unactiveArrow.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/MoneyexChange/img/vk.svg" beforeDir="false" afterPath="$PROJECT_DIR$/projects/MoneyexChange/img/vk.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/MoneyexChange/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/MoneyexChange/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/RazyGames/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/projects/RazyGames/assets/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/RazyGames/assets/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/RazyGames/assets/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/RazyGames/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/RazyGames/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/UserTable/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/projects/UserTable/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/TTLine/main.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/TTLine/main.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,6 +103,9 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="1kbAtKkQpzdK36cXxGG6QrWe5iX" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -102,24 +114,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/projects/CheeseCafe/styles" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-    <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/projects/CheeseCafe/styles" />
@@ -153,7 +159,8 @@
       <workItem from="1612093728978" duration="33000" />
       <workItem from="1612093803513" duration="220000" />
       <workItem from="1612094418684" duration="1772000" />
-      <workItem from="1612096436068" duration="3148000" />
+      <workItem from="1612096436068" duration="3645000" />
+      <workItem from="1654277520505" duration="503000" />
     </task>
     <task id="LOCAL-00001" summary="proj added">
       <created>1605959757826</created>
@@ -202,7 +209,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
