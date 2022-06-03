@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -19,65 +22,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2709e4b1-8b2f-4974-9726-e21e1a9b9971" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/projects/TTLine/catalog.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/TTLine/category.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/TTLine/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/TTLine/product.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/TTLine/src/css/catalog.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/TTLine/src/css/category.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/TTLine/src/css/flexboxgrid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/TTLine/src/css/fonts.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/TTLine/src/css/footer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/TTLine/src/css/header.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/TTLine/src/css/home.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/TTLine/src/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/TTLine/src/css/normalize.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/TTLine/src/css/product.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/TTLine/src/fonts/Cairo-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/TTLine/src/fonts/Cairo-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/TTLine/src/img/arrow-down.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/TTLine/src/img/arrow-down2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/TTLine/src/img/barcode-icon.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/TTLine/src/img/barcode1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/TTLine/src/img/barcode2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/TTLine/src/img/card-icon_1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/TTLine/src/img/card-icon_2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/TTLine/src/img/card-icon_3.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/TTLine/src/img/card-icon_4.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/TTLine/src/img/card-icon_5.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/TTLine/src/img/card_bg.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/TTLine/src/img/catalog.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/TTLine/src/img/footer_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/TTLine/src/img/item1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/TTLine/src/img/item2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/TTLine/src/img/item3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/TTLine/src/img/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/TTLine/src/img/logo_white.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/TTLine/src/img/main-block__bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/TTLine/src/img/map_bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/TTLine/src/img/palet.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/TTLine/src/img/phone.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/TTLine/src/img/product1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/TTLine/src/img/product10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/TTLine/src/img/product2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/TTLine/src/img/product3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/TTLine/src/img/product4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/TTLine/src/img/product5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/TTLine/src/img/product6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/TTLine/src/img/product7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/TTLine/src/img/product8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/TTLine/src/img/product9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/TTLine/src/img/search.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/TTLine/src/img/section3-footer_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/TTLine/src/img/section3_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/TTLine/src/img/test.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/TTLine/src/img/test1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/TTLine/src/img/test2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/TTLine/src/img/test3.jpg" afterDir="false" />
+    <list default="true" id="2709e4b1-8b2f-4974-9726-e21e1a9b9971" name="Default Changelist" comment="upd">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/TTLine/main.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/TTLine/main.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,7 +106,7 @@
       <workItem from="1612093803513" duration="220000" />
       <workItem from="1612094418684" duration="1772000" />
       <workItem from="1612096436068" duration="3645000" />
-      <workItem from="1654277520505" duration="503000" />
+      <workItem from="1654277520505" duration="1028000" />
     </task>
     <task id="LOCAL-00001" summary="proj added">
       <created>1605959757826</created>
@@ -190,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610713029945</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="upd">
+      <created>1654278089269</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1654278089269</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
