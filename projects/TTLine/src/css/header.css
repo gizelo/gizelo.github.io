@@ -1,0 +1,199 @@
+.header__top {
+    border-bottom: 1px solid #DDDDDD;
+}
+
+.header__top__phone {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    padding: 10px 0;
+}
+
+.header__top__phone img {
+    margin-right: 10px;
+    width: 15px;
+}
+
+.header__top__phone__link {
+    text-transform: uppercase;
+    color: #353535;
+}
+
+.header__top__lang {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.header__top__lang__link {
+    color: #353535;
+    text-transform: uppercase;
+    margin-right: 10px;
+    padding: 10px 0;
+}
+
+.header__top__lang img {
+    width: 5px;
+    transition: all .5s;
+}
+
+.header__top__lang:hover > .header__top__lang-list {
+    display: block;
+}
+
+.header__top__lang:hover > img {
+    transform: rotate(180deg);
+}
+
+.header__top__lang-list {
+    position: absolute;
+    display: none;
+    top: 38px;
+    right: 8px;
+    list-style: none;
+    background-color: #fff;
+    padding: 10px 0px;
+    margin: 0;
+    border: 1px solid #DDDDDD;
+    text-align: center;
+}
+
+.header__top__lang-list a {
+    color: #353535;
+}
+
+.header__top__lang-list li {
+    padding: 10px 20px;
+}
+
+.header__top__lang-list li:hover {
+    background-color: #e9f2f3;
+}
+
+.header__main {
+    border-bottom: 1px solid #DDDDDD;
+}
+
+.header__main__btns {
+    display: flex;
+}
+
+@media (max-width: 1023px) {
+    .header__main__btns {
+        justify-content: space-between;
+    }
+}
+
+.header__main__btn {
+    background-color: #fff;
+    border: none;
+    border-right: 1px solid #DDDDDD;
+    display: flex;
+    align-items: center;
+    padding: 30px 20px;
+    transition: all .3s;
+}
+
+.header__main__btn img {
+    margin-right: 10px;
+    width: 15px;
+}
+
+.header__main__btn-name {
+    margin: 0;
+    margin-right: 10px;
+    text-transform: uppercase;
+}
+
+.header__main__catalog-btn:hover, .header__main__catalog-btn:focus {
+    background-color: #E06D06;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.header__main__catalog-btn:focus ~ .header__main__catalog {
+    display: block;
+}
+
+.header__main__search-btn:hover > .header__main__btn-name {
+    display: none;
+}
+
+.header__main__search-btn:hover > input {
+    display: inline-block;
+    min-width: 200px;
+}
+
+.header__main__search-btn input {
+    text-transform: uppercase;
+    padding: 0;
+    color: #353535;
+    border: none;
+    caret-color: #1F7A8C;
+    display: none;
+    transition: transform .5s;
+}
+
+.header__main__search-btn input::placeholder {
+    color: #d7d7d7;
+}
+
+.header__main__links {
+    display: flex;
+}
+
+.header__main__link {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 30px 20px;
+    color: #353535;
+    text-transform: uppercase;
+    transition: all .3s;
+}
+
+.header__main__link:hover {
+    background-color: #1F7A8C;
+    color: #ffffff;
+}
+
+.header__main__catalog {
+    display: none;
+    position: absolute;
+    top: 116px;
+    left: 8px;
+    background-color: #fff;
+    color: #17183B;
+    padding: 70px 20px;
+    min-width: 250px;
+    border: 1px solid #DDDDDD;
+    border-top: 3px solid #e06d06;
+    text-align: start;
+}
+
+.header__main__catalog:active {
+    display: block;
+}
+
+.header__main__catalog__header {
+    margin-bottom: 30px;
+}
+
+.header__main__catalog__elements {
+    margin-bottom: 70px;
+    list-style: none;
+    padding: 0;
+}
+
+.header__main__catalog__elements li {
+    margin-bottom: 20px;
+}
+
+.header__main__catalog__elements a {
+    color: #353535;
+}
+
+.header__main__catalog__link {
+    text-decoration: underline;
+    color: #1F7A8C;
+}

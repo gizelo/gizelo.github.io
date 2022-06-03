@@ -1,0 +1,145 @@
+.products__header {
+    margin-bottom: 30px;
+}
+
+.product__sort {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    border: 1px solid #DDDDDD;
+    padding: 15px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.product__sort:hover > .product__sort-list {
+    display: block;
+}
+
+.product__sort:hover > img {
+    transform: rotate(180deg);
+}
+
+.product__sort__text {
+    margin: 0;
+}
+
+.product__sort img {
+    width: 10px;
+    transition: all .3s;
+}
+
+.product__sort-list {
+    display: none;
+    position: absolute;
+    top: 32px;
+    right: -1px;
+    list-style: none;
+    background-color: #fff;
+    min-width: 200px;
+    border: 1px solid #DDDDDD;
+    padding: 15px;
+    min-width: 100px;
+}
+
+.product__sort-list li button {
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px 0;
+}
+
+.products__filters {
+    padding: 30px 60px;
+    border: 1px solid #DDDDDD;
+}
+
+.products__filters__header {
+    margin-bottom: 30px;
+}
+
+.products__filters__list {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.products__filters__list li {
+    margin-bottom: 20px;
+}
+
+.products__filters__list li input {
+    margin-right: 15px;
+}
+
+.products__cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.products__card {
+    border: 1px solid #DDDDDD;
+    padding: 30px;
+    flex-basis: 206px;
+    color: #353535;
+    transition: all ease-in-out .2s;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.products__card:hover {
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.25);
+}
+
+.products__card:hover > .products__card__header {
+    text-decoration: underline;
+}
+
+.products__card__header {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.products__card img {
+    margin-bottom: 20px;
+    text-align: center;
+    height: 150px;
+    align-self: center;
+}
+
+.products__card__price {
+    color: #1F7A8C;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.products__card__amount {
+    display: inline-block;
+    margin-right: 5px;
+    color: #9a9a9a;
+    margin-bottom: 10px;
+}
+
+.products__card__isInStock {
+    color: #1F7A8C;
+}
+
+.products__loadMore-btn {
+    margin: auto;
+    padding: 20px;
+    color: #ffffff;
+    background-color: #1F7A8C;
+    text-transform: uppercase;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    min-width: 130px;
+    transition: all .2s;
+}
+
+.products__loadMore-btn:hover {
+    background-color: #E06D06;
+}
